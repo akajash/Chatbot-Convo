@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Sakura, the GMRE Bot", "I'm Sakura, How can I help you today?, Im Sakura, how may I assist you?", "You can consider me as a bot from GMRE, btw I'm Sakura"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can give you Profile Details", "I can provide profile details"]
+      },
+     {"tag": "vm_count",
+      "patterns": ["Can you provide the VM's count?","How many nodes are required?","Give me total number of nodes in the network","network details","how many WDM nodes required?","how many guests are required?","tell me the guests count"],
+      "responses": []
+      },
+      {"tag": "profile_type",
+       "patterns": ["is it APT or Autotest?","Is this an APT profile?","what is the profile type?","Is this an autotest profile?","Does this profile run in APT?","Does this profile run in autotest?"],
+       "responses": []
+      },
+      {"tag": "owner",
+       "patterns": ["Who is the owner of this profile?","Who is the responsible person for the profile","Get me the owner of the profile","Profile Ownership","Who is owning the profile?","Get me the owner name of the profile"],
+       "responses": []
+      },
+      {"tag": "batch_autotest_path",
+       "patterns": ["Give me the batch name","what is the batch name?","Provide me the Autotest path","what is the APT batch name?","Where is this autotest profile?","Can you give me the autotest path?","Can you give me the batch name of the profile?","where are the testcases?","Give me the testcase path","where can I find the testcases?","Provide me the testcase path"],
+       "responses": []
+      },
+      {"tag": "scratch",
+       "patterns": ["how to scratch the profile?","Manual scratch the profile","scratch installation job for this profile","which scratch should I use?","How can I install from scratch?"],
+       "responses": []
+      }
+  ]
+}
