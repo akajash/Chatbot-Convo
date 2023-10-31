@@ -141,3 +141,15 @@ def set_flag(value):
 # Function to get the global variable
 def get_flag():
     return flag
+
+
+def response_handler(msg):
+
+    the_question = msg
+    f = get_flag()
+    if f == 0:
+        response = chatbot_response(the_question)
+    else:
+        response = fetch_profile_data(the_question)
+        
+    return response
